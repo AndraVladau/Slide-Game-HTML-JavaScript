@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding Puzzle Game</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+        td {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            border: 1px solid black;
+            font-size: 20px;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+        .empty {
+            background-color: #ccc;
+        }
+        #restart-button {
+            display: block;
+            width: 100px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <table id="puzzle"></table>    
+    <script src="index.js"></script>
+    <button id="restart-button">Restart</button>
+</body>
+</html>

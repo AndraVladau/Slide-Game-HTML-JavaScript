@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding Puzzle Game</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+        td {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            background-image: url('C:/Users/aivla/Desktop/Andra/College/Anul II/Semestrul II/Programare Web/Laboratoare/JavaScript/Problem 6/Bonus/SpriteImage.jpg');
+            cursor: pointer;
+        }
+        .empty {
+            background: none;
+        }
+        #restart-button {
+            display: block;
+            width: 100px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            background-color: rgb(233, 10, 62);
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <table id="puzzle"></table>
+    <button id="restart-button">Restart</button>
+    <script src="index.js"></script>
+</body>
+</html>
